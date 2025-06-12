@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f8f9fa, #e0f7fa);
+  color: #333;
+  text-align: center;
+}
+header {
+  padding: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.video-section iframe {
+  width: 90%;
+  height: 300px;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 1rem;
+  padding: 1rem;
+  width: 220px;
+  transition: transform 0.3s;
+}
+.product-card:hover {
+  transform: scale(1.05);
+}
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+footer {
+  padding: 1rem;
+  background: #f1f1f1;
+  margin-top: 2rem;
+}
+.timer-viewers {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  margin-top: 1rem;
+}
